@@ -1,8 +1,8 @@
 <template>
-    <form action="">
-        <div class="row">
+    <form class="">
+        <div class="row form-group justify-content-center ">
             <div class="col-sm-8 col-sm-offset-2 col-xs-12 
-                        col-md-6 col-md-offset-3 form-group"
+                        col-md-8 col-md-offset-2"
             >
                 <label for="newQuote">Quote</label>
                 <textarea name="newQuote" rows="3"
@@ -13,7 +13,7 @@
                 </textarea>
             </div>
             <div class="col-sm-8 col-sm-offset-2 col-xs-12 
-                        col-md-6 col-md-offset-3 form-group"
+                        col-md-8 col-md-offset-2"
             >
                 <button class="btn btn-primary" @click.prevent="createNew">Add quote</button>
             </div>
